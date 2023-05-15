@@ -1,0 +1,13 @@
+
+train: D:/缺陷检测项目/项目二/yolov5-6.1/NEU-DET/train.txt  # train images (relative to 'path') 128 images
+val: D:/缺陷检测项目/项目二/yolov5-6.1/NEU-DET/val.txt  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+#path: ../NEU-DET  # dataset root dir
+#train: train/images  # train images (relative to 'path') 128 images
+#val: valid/images  # val images (relative to 'path') 128 images
+#test:  # test images (optional)
+
+
+# Classes
+nc: 6  # number of classes
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']  # class names
